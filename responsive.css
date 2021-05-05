@@ -2,7 +2,7 @@
 @media all and (max-width: 1025px){
   body{
     width: 100%;
-    background-size: contain;
+    background-size: auto;
   }
   .logo_center{
     margin: 150px auto 20px auto;
