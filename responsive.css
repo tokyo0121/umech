@@ -1,0 +1,167 @@
+/*タブレット向けレイアウト*/
+@media all and (max-width: 1025px){
+  body{
+    width: 100%;
+  }
+  .logo_center{
+    margin: 150px auto 20px auto;
+  }
+  .logo{
+    width: 630px;
+    height: auto;
+  }
+  .store_badge{
+    margin: 0;
+    height: 0;
+  }
+  .apple_store{
+    height: 60px;
+  }
+  .google_play{
+    height: 60px;
+  }
+  .container{
+    padding: 70px 0;
+  }
+  .container p{
+    font-size: 20px;
+  }
+  .hukidashi-left{
+    padding-left: 30px;
+  }
+  .hukidashi-right{
+    padding-right: 30px;
+  }
+  .container h3{
+    font-size: 50px;
+  }
+  .container_howto{
+    margin: 0 40px;
+  }
+  .howtouse_pic{
+    width: 330px;
+    margin-left: 20px;
+  }
+  .container_howto p{
+    font-size: 23px;
+    padding-top: 60px;
+  }
+  .main_kinou{
+    margin-left: 70px 25px;
+    padding-top: 40px;
+  }
+  .kiyaku{
+    margin: 70px 25px;
+    padding-top: 40px;
+  }
+  .btn{
+    width: 200px;
+    font-size: 17px;
+  }
+}
+
+/*スマホ向けレイアウト*/
+@media all and (max-width: 670px){
+  body{
+    width: 100%;
+  }
+  .logo_center{
+    margin: 100px auto 20px auto;
+  }
+  .logo_center h2{
+    font-size: 20px;
+  }
+  .logo{
+    width: 330px;
+    height: auto;
+  }
+  .store_badge{
+    margin: 0;
+    height: 0;
+  }
+  .apple_store{
+    height: 50px;
+  }
+  .google_play{
+    height: 50px;
+  }
+  .container{
+    padding: 40px 0;
+  }
+  .container p{
+    font-size: 20px;
+  }
+  .container .hukidashi-left{
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .container .hukidashi-right{
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .container h3{
+    font-size: 20px;
+  }
+  .container_howto{
+    margin:auto;
+  }
+  .howtouse_pic{
+    width: 310px;
+    margin-left: 30px;
+  }
+  .container_howto p{
+    font-size: 23px;
+    padding-top: 80px;
+    margin-top: 200px;
+  }
+  .main_kinou{
+    margin-left: 70px 25px;
+    padding-top: 40px;
+  }
+  .kiyaku{
+    margin: 70px 25px;
+    padding-top: 40px;
+  }
+  .btn{
+    width: 200px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .btn_privacy{
+    margin-left: 0px;
+  }
+  
+  /*Loadingアイコンの大きさ設定*/
+  #splash_logo img{
+    width:　100px;
+  }
+  .policy-page{
+    padding-top: 30px;
+  }
+  .policy-container{
+    padding: 20px 0 20px 0;
+  }
+  .policy-container h3{
+    font-size: 20px;
+    margin: 0;
+  }
+  .policy-container h4{
+    font-size: 13px;
+  }
+  .policy-container p{
+    font-size: 12px;
+  }
+  .policy-container li{
+    font-size: 10px;
+  }
+  .policy-container h5{
+    font-size: 20px;
+  }
+  .policy{
+    margin: 10px 20px;
+    padding: 20px;
+  }
+  .coming_soon{
+    font-size: 30px;
+  }
+}
