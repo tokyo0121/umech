@@ -170,6 +170,22 @@ body * {
   padding-top: 50px;
 }
 
+.main_kinou h5{
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-left: 200px;
+  text-align: left;
+}
+
+.main_kinou h6{
+  font-size: 15px;
+  margin-left: 200px;
+  text-align: left;
+  font-weight: lighter;
+  margin-right: 200px;
+}
+
 /*利用規約*/
 .kiyaku{
   margin: 150px 50px;
