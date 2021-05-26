@@ -176,6 +176,7 @@ body * {
   padding-bottom: 0;
   margin-left: 200px;
   text-align: left;
+  color: rgb(56, 56, 56);
 }
 
 .main_kinou h6{
@@ -184,6 +185,7 @@ body * {
   text-align: left;
   font-weight: lighter;
   margin-right: 200px;
+  color: rgb(125, 126, 126);
 }
 
 /*利用規約*/
