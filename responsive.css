@@ -2,6 +2,7 @@
 @media all and (max-width: 1025px){
   body{
     width: 100%;
+    background-size: cover;
   }
   .logo_center{
     margin: 150px auto 20px auto;
@@ -58,6 +59,22 @@
     width: 200px;
     font-size: 17px;
   }
+
+  .main_kinou{
+    margin: 100px 50px;
+    margin-bottom: 0;
+    padding-top: 20px;
+  }
+
+  .main_kinou h5{
+    margin: auto;
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .main_kinou h6{
+    margin: auto;
+    font-size: 14px;
 }
 
 /*スマホ向けレイアウト*/
@@ -130,7 +147,7 @@
   .btn_privacy{
     margin-left: 0px;
   }
-  
+
   /*Loadingアイコンの大きさ設定*/
   #splash_logo img{
     width:　100px;
@@ -163,5 +180,22 @@
   }
   .coming_soon{
     font-size: 30px;
+  }
+
+  .main_kinou{
+    margin: 50px 10px;
+    margin-bottom: 0;
+    padding-top: 20px;
+  }
+
+  .main_kinou h5{
+    margin: auto;
+    font-size: 21px;
+    margin-top: 15px;
+  }
+
+  .main_kinou h6{
+    margin: auto;
+    font-size: 13px;
   }
 }
